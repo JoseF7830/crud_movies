@@ -1,0 +1,51 @@
+.card-image img {
+    max-height: 300px;
+}
+.s6 #buscar{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.s3 #inicio{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+#footer{    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container-pelis{
+    margin-left: 14%;
+}
+
+.s3 #inicio2{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+#container-info{
+    margin-left: 15%;
+}
+#footer-info{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 83px;
+}
+
+.card-title {
+    background-color: #000000c4;
+}
+.botones{
+    margin-top: 30px;
+}
+#add{
+    margin-left: 50%;
+}
+.plot {
+    white-space: nowrap;
+    height: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

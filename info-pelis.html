@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFLIX</title>
+
+    <link rel="stylesheet" href="style.css">
+
+     <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+<body>
+
+    <div class="full-width">
+        <div id="container" class="row">
+          <div class="col s12 blue-grey lighten-3">
+            
+            <div class="row">
+              <div class="full-width">
+               
+              <div class=" col s3">
+                 <a href="index.html"><button class= "btn waves-effect waves-light blue" type="submit" name="action" id="inicio2">HOME
+                     <i class="material-icons right"></i>
+                  </button></a> 
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+      
+      <div class="row" id="container-info">
+
+        <div class="input-field col s10">
+          <textarea  class="materialize-textarea" id="plot" style="height: 8rem" placeholder="Plot"></textarea>
+          <label for="icon_prefix2">Plot</label>
+        </div>
+
+        <div class="input-field col s5">
+            <input type="text" id="generous" class="materialize-textarea" placeholder="Generous" />
+            <label for="icon_prefix2">Generous</label>
+        </div>
+
+
+        <div class="input-field col s5">
+            <textarea id="rated" class="materialize-textarea" placeholder="Rated"></textarea>
+            <label for="icon_prefix2">Rated</label>
+          </div>
+
+          <div class="input-field col s5">
+              <textarea id="cast" class="materialize-textarea" style="height: 6rem" placeholder="Cast"></textarea>
+              <label for="icon_prefix2">Cast</label>
+          </div>
+
+        <div class="input-field col s5">
+            <textarea id="poster" class="materialize-textarea" placeholder="Poster"></textarea>
+            <label for="icon_prefix2">Poster</label>
+        </div>
+
+        <div class="input-field col s5">
+            <textarea id="title" class="materialize-textarea" placeholder="Title"></textarea>
+            <label for="icon_prefix2">Title</label>
+        </div>
+
+        <div class="input-field col s5">
+            <textarea id="fullplot" class="materialize-textarea" placeholder="Fullplot"></textarea>
+            <label for="icon_prefix2">Fullplot</label>
+        </div>
+
+        <div class="input-field col s5">
+            <textarea id="countries" class="materialize-textarea" placeholder="Countries"></textarea>
+            <label for="icon_prefix2">Countries</label>
+        </div>
+
+        
+        <div class="input-field col s5">
+            <textarea id="released" class="materialize-textarea" placeholder="Released"></textarea>
+            <label for="icon_prefix2">Released</label>
+        </div>
+
+        
+        <div class="input-field col s5">
+            <textarea id="directors" class="materialize-textarea" placeholder="Directors"></textarea>
+            <label for="icon_prefix2">Directors</label>
+        </div>
+
+        
+        <div class="input-field col s5">
+            <textarea id="writers" class="materialize-textarea" placeholder="Writers"></textarea>
+            <label for="icon_prefix2">Writers</label>
+        </div>
+
+        <div class="col s10">
+            <p for="icon_prefix2">Awards</p>
+        </div>
+        <div class="input-field col s5">
+            <textarea id="wins" class="materialize-textarea" placeholder="Wins"></textarea>
+            <label for="icon_prefix2">Wins</label>
+        </div>
+        <div class="input-field col s5">
+            <textarea id="nominations" class="materialize-textarea" placeholder="Nominaciones"></textarea>
+            <label for="icon_prefix2">Nominaciones</label>
+        </div>
+
+        <div class="input-field col s5">
+            <textarea id="year" class="materialize-textarea" placeholder="Year"></textarea>
+            <label for="icon_prefix2">Year</label>
+        </div>
+
+        <div class="input-field col s5">
+            <textarea id="type" class="materialize-textarea" placeholder="Type"></textarea>
+            <label for="icon_prefix2">Type</label>
+        </div>
+
+      </div>
+      <div class=" col s12 black text-white " id="footer-info">
+        <button class="btn waves-effect waves-light blue" type="submit" name="action" id="Añadir" onclick="updateMovie()">UPDATE
+            <i class="material-icons right">add_circle</i>
+         </button>
+         <button class="btn waves-effect waves-light red" type="submit" name="action" id="Añadir" onclick="deleteMovie()" >DELETE
+          <i class="material-icons right">delete</i>
+       </button>
+    </div>
+
+   
+
+
+
+ <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
+  <script src="infoMovie.js"></script>
+</body>
+</html>
