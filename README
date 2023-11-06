@@ -1,0 +1,27 @@
+# Página Web de Películas con Operaciones CRUD
+
+Este proyecto es una página web que permite gestionar una colección de películas utilizando operaciones CRUD (Crear, Leer, Actualizar y Eliminar). Está conectada a una base de datos MongoDB y desarrollada con HTML, CSS y JavaScript.
+
+## Características
+
+- Lista de películas con imágenes y detalles.
+- Agregar nuevas películas a la base de datos.
+- Editar información de películas existentes.
+- Eliminar películas de la base de datos.
+- Visualización de detalles de películas.
+
+## Tecnologías Utilizadas
+
+- HTML: Para estructurar la página web.
+- CSS: Para dar estilo a la página.
+- JavaScript: Para la interacción del usuario y la lógica de la aplicación.
+- Node.js: Para el servidor de aplicaciones.
+- Express.js: Para crear rutas y gestionar solicitudes HTTP.
+- MongoDB: Como base de datos para almacenar información de películas.
+
+## Configuración
+
+1. Clona este repositorio en tu máquina local.
+
+```shell
+git clone https://github.com/JoseF7830/crud_movies.git
